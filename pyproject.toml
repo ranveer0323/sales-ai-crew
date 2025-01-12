@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "sales-crew"
+version = "0.1.0"
+description = ""
+authors = ["ranveer0323 <ranawatranveer0323@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+crewai = {extras = ["agentops"], version = "^0.95.0"}
+groq = "^0.15.0"
+agentops = "^0.3.22"
+crewai-tools = "^0.25.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

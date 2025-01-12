@@ -1,0 +1,5 @@
+__pycache__/
+.env
+agentops.log
+retail_crm_lead_data.csv
+outputs
