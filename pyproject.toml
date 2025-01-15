@@ -11,6 +11,8 @@ crewai = {extras = ["agentops"], version = "^0.95.0"}
 groq = "^0.15.0"
 agentops = "^0.3.22"
 crewai-tools = "^0.25.8"
+fastapi = "^0.115.6"
+uvicorn = "^0.34.0"
 
 
 [build-system]
