@@ -13,6 +13,8 @@ agentops = "^0.3.22"
 crewai-tools = "^0.25.8"
 fastapi = "^0.115.6"
 uvicorn = "^0.34.0"
+pydantic = "^2.10.5"
+logging = "^0.4.9.6"
 
 
 [build-system]
