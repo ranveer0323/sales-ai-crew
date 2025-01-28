@@ -5,6 +5,7 @@ from agents import junior_sales_associate, senior_sales_associate
 from tasks import lead_ranking, communication_generation
 import os
 import logging
+from fastapi.middleware.cors import CORSMiddleware
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
