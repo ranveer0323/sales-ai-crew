@@ -12,6 +12,14 @@ logger = logging.getLogger(__name__)
 
 app = FastAPI(title="CrewAI Sales API", version="1.0.0")
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:5173"],  # Default Vite React app port
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 
 class FileInput(BaseModel):
     file_path: str
