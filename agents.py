@@ -22,7 +22,8 @@ junior_sales_associate = Agent(
               "analysing CRM data and ranking leads which will convert.",
     verbose=True,
     tools=[file_read_tool],
-    llm=llm
+    llm=llm,
+    max_iter=7
 )
 
 senior_sales_associate = Agent(
