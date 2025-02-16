@@ -2,19 +2,20 @@
 
 [[package]]
 name = "agentops"
-version = "0.3.23"
+version = "0.3.26"
 description = "Observability and DevTool Platform for AI Agents"
 optional = false
 python-versions = "<3.14,>=3.9"
 files = [
-    {file = "agentops-0.3.23-py3-none-any.whl", hash = "sha256:ecfff77d8f9006361ef2a2e8593271e97eb54b7b504abfb8abd6504006baca56"},
-    {file = "agentops-0.3.23.tar.gz", hash = "sha256:4e4de49caeaf567b8746082f84a8cdd65afe2c698720f6f40251bbc4fdffe4c9"},
+    {file = "agentops-0.3.26-py3-none-any.whl", hash = "sha256:20948f52e3ffb4ba1d52301c3a82e59490182c4dad22774ad831dce0181eb5c2"},
+    {file = "agentops-0.3.26.tar.gz", hash = "sha256:bc824bf8727332f59bf803cf84440d13e9e398406222ab29f45909ac1e39f815"},
 ]
 
 [package.dependencies]
 opentelemetry-api = {version = ">=1.27.0", markers = "python_version >= \"3.10\""}
 opentelemetry-exporter-otlp-proto-http = {version = ">=1.27.0", markers = "python_version >= \"3.10\""}
 opentelemetry-sdk = {version = ">=1.27.0", markers = "python_version >= \"3.10\""}
+packaging = ">=21.0,<25.0"
 psutil = ">=5.9.8,<6.1.0"
 pyyaml = ">=5.3,<7.0"
 requests = ">=2.0.0,<3.0.0"
